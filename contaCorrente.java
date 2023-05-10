@@ -9,6 +9,9 @@ public class contaCorrente {
         Scanner entrada = new Scanner(System.in);
         int opcao = 0;
 
+        Conta contaArthur = new Conta();
+        contaArthur.saldo = 2500.00;
+
         while(opcao != 4){
             System.out.println("**********************************");
             System.out.println("Dados iniciais do cliente  ");
